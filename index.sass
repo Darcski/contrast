@@ -6,7 +6,6 @@ $nav: {{ site.style.nav }}
 $margin: {{ site.style.margin }}
 $margincolor: {{ site.style.margincolor }}
 $padding: {{ site.style.padding }}
-$uppercase: {{ site.style.uppercase }}
 
 html
   background-color: if($margin > 0%, $margincolor, $nav)
@@ -22,7 +21,7 @@ body
 h1, h2, h3, h4, h5, h6
   font-family: "Gentium Basic"
   margin: 0.4em 0
-{% if $uppercase %}
+{% if site.style.uppercase %}
   letter-spacing: 2px
   text-transform: uppercase
 {% endif %}
