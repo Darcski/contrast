@@ -10,12 +10,13 @@ comments:
 #  isso: "comments.mysite.org"
 
 style:
-  body: 'white'
-  margin: 0%
-  padding: 30%
-  nav: "#222"
+  body: 'white' # main background color
+  padding: 3 # factor for the padding width
   articles: 'stripe' # 'light' 'dark' and 'stripe' possible
-  uppercase: true
+  nav: "#222" # color of the header and footer
+  uppercase: true # use uppercase text for headings
+  margin: 0% # increase to add a margin to the left and right side
+  margincolor: "#f0f0f0" # only relevant if margin is non-zero
 
 # see http://fontawesome.io/icons/#brand for all possible icons
 # notice: squared icons only work if supported by font-awesome
